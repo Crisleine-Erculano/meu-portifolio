@@ -1,0 +1,9 @@
+.titulo-div{
+   display: flex;
+   flex-direction: column;
+   
+}
+.titulo-principal{
+   padding: 1rem 0;
+}
+

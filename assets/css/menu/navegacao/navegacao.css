@@ -1,0 +1,18 @@
+.navegacao .menu-list .menu-list-item{
+   display: none;
+}
+
+.texto {
+   display: flex;
+   flex-direction: column;
+
+}
+.link-ul {
+   display: flex;
+   justify-content: space-between;
+   padding: 1rem;
+   list-style: none
+}
+.link-itens{
+   text-decoration: none;
+}
