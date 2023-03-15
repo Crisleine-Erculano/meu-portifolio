@@ -1,0 +1,9 @@
+.skills-envelopa  {
+   display: flex;
+   padding: 1rem;
+   width: 100vw;
+   justify-content: space-between;
+   margin: 0 auto;
+   
+   
+}
