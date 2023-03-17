@@ -1,0 +1,21 @@
+.formacao-envelopa {
+   margin: 0 auto;
+   text-align: center;
+}
+
+.formacao-img {
+   background-color: #fbfbfb;
+   padding: 16px;
+
+}
+
+.formacao-titulo {
+   padding: 1rem;
+}
+
+.formacao-subtitulo, .formacao-paragrafo {
+   padding: 1rem;
+   font-weight: 700;
+   font-size: 16px;
+   text-align: start;
+}
