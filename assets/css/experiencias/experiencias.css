@@ -1,6 +1,49 @@
-.experiencia{
-   text-align: center;
+.experiencia {
    margin-top: 1.5rem;
-   
-   
+   text-align: center;
+}
+
+.experiencia-imagens {
+   width: 100%;
+}
+
+.experiencia-envelopa {
+   display: flex;
+   flex-direction: column;
+}
+
+.experiencia-descricao {
+   font-size: 16px;
+   font-weight: 700;
+   padding: 1.5rem 0 1rem 0;
+}
+
+.experiencia-botao {
+   display: flex;
+}
+
+.experiencia-botaoRepositorio {
+   align-items: center;
+   border: 1px solid #2A7AE4;
+   box-sizing: border-box;
+   color: #2A7AE4;
+   cursor: pointer;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   padding: 12px 16px;
+
+}
+
+.experiencia-botaoDemo {
+   align-items: center;
+   background: #2A7AE4;
+   border: 1px solid #2A7AE4;
+   color: white;
+   cursor: pointer;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   padding: 12px 16px;
+   margin-left: 16px;
 }
