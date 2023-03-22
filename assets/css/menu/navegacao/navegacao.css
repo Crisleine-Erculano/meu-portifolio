@@ -1,18 +1,25 @@
-.navegacao .menu-list .menu-list-item{
+.menu-list-item {
    display: none;
+   font-size: 14px;
+   font-weight: 400;
 }
 
 .texto {
-   display: flex;
-   flex-direction: column;
+   font-weight:400;
+   font-size: 20px;
+   line-height: 26px;
+   text-align: center;
+}
 
-}
 .link-ul {
+   align-items: center;
    display: flex;
-   justify-content: space-between;
-   padding: 1rem;
-   list-style: none
+   font-size: 14px;
+   justify-content: space-evenly;
+   list-style: none;
+   padding-top: 1rem;
 }
-.link-itens{
+
+.link-itens {
    text-decoration: none;
 }
