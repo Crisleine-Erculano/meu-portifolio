@@ -1,0 +1,8 @@
+.contato-input {
+   border: transparent;
+   flex-grow: 1;
+   margin: 10px 0px;
+   height: 56px;
+   width: 80vw;
+   text-indent: 10px;
+}

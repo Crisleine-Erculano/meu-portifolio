@@ -1,0 +1,16 @@
+.formulario {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 10px;
+   margin: 0;
+}
+.formulario input::placeholder {
+   color: #2A7AE4;
+   text-indent: 10px;
+}
+
+ .formulario input:active {
+   border-bottom: solid 2px #2A7AE4;
+
+}

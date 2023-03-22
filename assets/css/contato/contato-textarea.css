@@ -1,0 +1,10 @@
+.contato-textarea {
+   border: transparent;
+   flex-grow: 1;
+   margin: 10px 0px;
+   height: 96px;
+   width: 80vw;
+}
+.contato-textarea::placeholder{
+   color: #2A7AE4;
+}
