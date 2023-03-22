@@ -1,7 +1,5 @@
 .menu-list-item {
    display: none;
-   font-size: 14px;
-   font-weight: 400;
 }
 
 .texto {
@@ -21,5 +19,8 @@
 }
 
 .link-itens {
+   color: var(--preto);
+   font-size: 14px;
+   font-weight: 600;
    text-decoration: none;
 }
