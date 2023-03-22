@@ -1,5 +1,5 @@
 .formacao-img {
-   background-color: #fbfbfb;
+   background-color: var(--branco-medio);
    padding: 16px;
 
 }

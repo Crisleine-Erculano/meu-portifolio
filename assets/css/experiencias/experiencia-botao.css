@@ -4,9 +4,9 @@
 
 .experiencia-botaoRepositorio {
    align-items: center;
-   border: 1px solid #2A7AE4;
+   border: 1px solid var(--azul-claro);
    box-sizing: border-box;
-   color: #2A7AE4;
+   color: var(--azul-claro);
    cursor: pointer;
    display: flex;
    flex-direction: row;
@@ -17,9 +17,9 @@
 
 .experiencia-botaoDemo {
    align-items: center;
-   background: #2A7AE4;
-   border: 1px solid #2A7AE4;
-   color: white;
+   background: var(--azul-claro);
+   border: 1px solid var(--azul-claro);
+   color: var(--branco-medio);
    cursor: pointer;
    display: flex;
    flex-direction: row;

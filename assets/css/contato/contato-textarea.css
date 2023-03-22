@@ -6,5 +6,5 @@
    width: 80vw;
 }
 .contato-textarea::placeholder{
-   color: #2A7AE4;
+   color: var(--azul-claro);
 }

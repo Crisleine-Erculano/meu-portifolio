@@ -6,3 +6,12 @@
    width: 80vw;
    text-indent: 10px;
 }
+.formulario input::placeholder {
+   color: var(--azul-claro);
+   text-indent: 10px;
+}
+
+ .formulario input:active {
+   border-bottom: solid 2px var(--azul-claro);
+
+}

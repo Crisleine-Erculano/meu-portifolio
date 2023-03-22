@@ -4,12 +4,19 @@
 }
 body {
     box-sizing: border-box;
-    background-color: #999999;
-    color: #000000;
+    background-color: var(--cinza);
+    color: var(--preto);
     cursor: pointer;
     font-family: 'Raleway';
     line-height: 1;
     width: 100vw;
+}
+:root{
+    --cinza:#999999;
+    --preto:#000000;
+    --branco-medio:#fbfbfb;
+    --azul-claro:#2A7AE4;
+
 }
 .container{
     margin: 0 16px 0 16px;

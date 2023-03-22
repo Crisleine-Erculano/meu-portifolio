@@ -1,7 +1,7 @@
 
 .skills-caixa{
    align-items: flex-start;
-   background-color: #fbfbfb;
+   background-color: var(--branco-medio);
    display: flex;
    flex-direction: column;
    justify-content: flex-end;
