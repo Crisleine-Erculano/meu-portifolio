@@ -1,0 +1,7 @@
+@media screen and (min-width:1000px) {
+   .menu-link {
+      color: var(--preto);
+      font-size: 16px;
+      text-decoration: none;
+   }
+}

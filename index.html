@@ -8,34 +8,52 @@
 
    <title>Meu Portifólio</title>
    <link rel="stylesheet" href="assets/css/style.css">
-   <link rel="stylesheet" href="assets/css/menu/header.css">
 
+   <link rel="stylesheet" href="assets/css/menu/menu.css">
+   <link rel="stylesheet" href="assets/css/menu/imagem.css">
+   <link rel="stylesheet" href="assets/css/menu/navegacao/menu-list.css">
+   <link rel="stylesheet" href="assets/css/menu/navegacao/menu-list-item.css">
+   <link rel="stylesheet" href="assets/css/menu/navegacao/menu-link.css">
    <link rel="stylesheet" href="assets/css/menu/navegacao/navegacao.css">
+   <link rel="stylesheet" href="assets/css/menu/cabecalho.css">
    <link rel="stylesheet" href="assets/css/menu/navegacao/navegacao-titulo/titulo.css">
-   <link rel="stylesheet" href="assets/css/menu/navegacao/navegacao-imagem/imagem.css">
+
+   <link rel="stylesheet" href="assets/css/texto/texto.css">
+   <link rel="stylesheet" href="assets/css/texto/texto-imagem.css">
+   <link rel="stylesheet" href="assets/css/texto/titulo-principal.css">
+   <link rel="stylesheet" href="assets/css/texto/link.css">
+   <link rel="stylesheet" href="assets/css/texto/link-itens.css">
+   <link rel="stylesheet" href="assets/css/texto/link-ul.css">
 
    <link rel="stylesheet" href="assets/css/sobre/sobre.css">
    <link rel="stylesheet" href="assets/css/sobre/sobre-paragrafo.css">
    <link rel="stylesheet" href="assets/css/sobre/sobre-titulo.css">
 
    <link rel="stylesheet" href="assets/css/skills/skills-envelopa.css">
-   <link rel="stylesheet" href="assets/css/skills/skilss-titulo.css">
+   <link rel="stylesheet" href="assets/css/skills/skills-lista.css">
    <link rel="stylesheet" href="assets/css/skills/skills-caixa.css">
+   <link rel="stylesheet" href="assets/css/skills/skilss-titulo.css">
 
+   <link rel="stylesheet" href="assets/css/hobbies/hobbies.css">
    <link rel="stylesheet" href="assets/css/hobbies/hobbies-caixa.css">
    <link rel="stylesheet" href="assets/css/hobbies/hobbies-envelopa.css">
+   <link rel="stylesheet" href="assets/css/hobbies/hobbies-lista.css">
    <link rel="stylesheet" href="assets/css/hobbies/hobbies-titulo.css">
 
+   <link rel="stylesheet" href="assets/css/formacao-academica/formacao.css">
    <link rel="stylesheet" href="assets/css/formacao-academica/formacao-envelopa.css">
    <link rel="stylesheet" href="assets/css/formacao-academica/formacao-imagem.css">
+   <link rel="stylesheet" href="assets/css/formacao-academica/formacao-lista.css">
    <link rel="stylesheet" href="assets/css/formacao-academica/formacao-subtitulo.css">
    <link rel="stylesheet" href="assets/css/formacao-academica/formacao-titulo.css">
 
    <link rel="stylesheet" href="assets/css/experiencias/experiencias.css">
    <link rel="stylesheet" href="assets/css/experiencias/experiencia-botao.css">
+   <link rel="stylesheet" href="assets/css/experiencias/experiencia-caixa.css">
    <link rel="stylesheet" href="assets/css/experiencias/experiencia-descricao.css">
    <link rel="stylesheet" href="assets/css/experiencias/experiencia-envelopa.css">
    <link rel="stylesheet" href="assets/css/experiencias/experiencia-imagens.css">
+   <link rel="stylesheet" href="assets/css/experiencias/experiencia-titulo.css">
    
 
    <link rel="stylesheet" href="assets/css/contato/contato.css">
@@ -78,15 +96,16 @@
       </section>
 
       <section class="texto">
-         <figure>
-            <img class="profile" src="assets/imagem/cris.jpg" alt="Foto da Autora">
-         </figure>
+         <div class="texto-imagem">
+            <figure>
+               <img class="profile" src="assets/imagem/cris.jpg" alt="Foto da Autora">
+            </figure>
+         </div>
          <div class="titulo-div">
             <h2 class="titulo-principal">Olá! Sejam Bem-Vindos, meu nome é Crisleine Erculano!</h2>
             <h3 class="titulo-secundario">Desenvolvedora Front-End</h3>
-         </div>
-         <div class="link">
-            <ul class="link-ul">
+            <div class="link">
+               <ul class="link-ul">
                <li class="link-li">
                   <a class="link-itens" href="https://www.linkedin.com/in/crisleine-erculano/" target="_blank">Linkedin
                      <img src="assets/imagem/seta.png" alt="Imagem de uma seta">
@@ -104,6 +123,7 @@
                </li>
             </ul>
          </div>
+      </div>
       </section>
       <section class="sobre">
          <div class="sobre-container">
@@ -138,25 +158,27 @@
          </div>
       </section>
       <section class="hobbies">
+         <h2 class="hobbies-titulo">Hobbies</h2>
          <div class="hobbies-envelopa">
-            <h2 class="hobbies-titulo">Hobbies</h2>
-            <div class="hobbies-caixa">
-               <li>
-                  <img src="assets/imagem/headphones_icon.png" alt="Icon fone de ouvido">
-               </li>
-               <span>Ouvir Música</span>
-            </div>
-            <div class="hobbies-caixa">
-               <li>
-                  <img src="assets/imagem/tv_icon.png" alt="Icon Tv">
-               </li>
-               <span>Assistir Séries</span>
-            </div>
+            <ul class="hobbies-lista">
+               <div class="hobbies-caixa">
+                  <li>
+                     <img src="assets/imagem/headphones_icon.png" alt="Icon fone de ouvido">
+                  </li>
+                  <span>Ouvir Música</span>
+               </div>
+               <div class="hobbies-caixa">
+                  <li>
+                     <img src="assets/imagem/tv_icon.png" alt="Icon Tv">
+                  </li>
+                  <span>Assistir Séries</span>
+               </div>
+            </ul>
          </div>
       </section>
       <section class="formacao">
+         <h2 class="formacao-titulo">Formação Academica</h2>
          <div class="formacao-envelopa">
-            <h2 class="formacao-titulo">Formação Academica</h2>
             <ul class="formacao-lista">
                <div class="formacao-caixa">
                   <li class="formacao-itens">
@@ -179,7 +201,7 @@
       <section class="experiencia">
          <h2 class="experiencia-titulo">Experiência Profissional</h2>
          <div class="experiencia-envelopa">
-            <div>
+            <div class="experiencia-caixa">
                <figure>
                   <figcaption class="experiencia-descricao">Calculadora</figcaption>
                   <img class="experiencia-imagens" src="assets/imagem/calculadora1.png" alt="Imagem de uma Calculadora">
@@ -189,7 +211,7 @@
                   <span><a href=""><button class="experiencia-botaoDemo">Demo</button></a></span>
                </div>
             </div>
-            <div>
+            <div class="experiencia-caixa">
                <figure>
                   <figcaption class="experiencia-descricao">Decodificador</figcaption>
                   <img class="experiencia-imagens" src="assets/imagem/decodificador.png" alt="Imagem do Decodificador">
@@ -199,7 +221,7 @@
                   <span><a href=""><button class="experiencia-botaoDemo">Demo</button> </a></span>
                </div>
             </div>
-            <div>
+            <div class="experiencia-caixa">
                <figure>
                   <figcaption class="experiencia-descricao">TO-DO List</figcaption>
                   <img class="experiencia-imagens" src="assets/imagem/todoList.png" alt="Imagem de um TODO-List">

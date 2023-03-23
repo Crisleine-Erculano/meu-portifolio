@@ -1,3 +1,9 @@
 .experiencia-imagens {
    width: 100%;
 }
+@media screen and (min-width:1000px){
+   .experiencia-imagens{
+     width: 80%;
+   }
+   
+}

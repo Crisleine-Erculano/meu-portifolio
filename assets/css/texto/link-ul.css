@@ -1,0 +1,8 @@
+.link-ul {
+   align-items: center;
+   display: flex;
+   font-size: 16gitpx;
+   justify-content: space-evenly;
+   list-style: none;
+   padding-top: 1rem;
+}

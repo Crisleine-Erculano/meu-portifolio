@@ -1,0 +1,14 @@
+.titulo-principal {
+   padding: 1rem 0;
+   font-size: 22px;
+   font-weight: 700;
+   line-height: 26px;
+}
+@media screen and (min-width:1000px){
+   .titulo-principal{ 
+      font-size:38px;
+      font-weight: 600;
+      line-height: 36px;
+      
+   }
+}

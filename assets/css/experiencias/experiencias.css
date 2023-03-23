@@ -1,8 +1,9 @@
 .experiencia {
+   background: var(--cinza-claro);
    margin-top: 1.5rem;
+   padding:1.5rem ;
    text-align: center;
 }
-
 
 
 

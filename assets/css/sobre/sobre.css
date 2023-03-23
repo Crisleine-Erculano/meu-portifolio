@@ -1,4 +1,8 @@
 .sobre{
    display: flex;
    padding: 1rem;
+   background: var(--cinza-claro);   
+   padding: 1rem;   
 }
+
+

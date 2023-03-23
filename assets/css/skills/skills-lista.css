@@ -1,0 +1,16 @@
+@media screen and (min-width:700px){
+   .skills-lista{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      
+   }
+   
+}
+@media screen and (min-width:1000px){
+   .skills-lista{
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+   }
+}

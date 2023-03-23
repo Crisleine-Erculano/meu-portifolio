@@ -1,0 +1,10 @@
+.profile{
+   border-radius: 50%;
+   margin-left: 1rem;
+   width: 40%;
+}
+@media screen and (min-width:1000px){
+   .profile{
+      width:250px;
+   }
+}

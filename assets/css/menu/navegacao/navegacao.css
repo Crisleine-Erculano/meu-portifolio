@@ -1,26 +1,13 @@
-.menu-list-item {
-   display: none;
+.navegacao {
+   width: 751px;
 }
 
-.texto {
-   font-weight:400;
-   font-size: 20px;
-   line-height: 24px;
-   text-align: center;
-}
 
-.link-ul {
-   align-items: center;
-   display: flex;
-   font-size: 14px;
-   justify-content: space-evenly;
-   list-style: none;
-   padding-top: 1rem;
-}
 
-.link-itens {
-   color: var(--preto);
-   font-size: 14px;
-   font-weight: 600;
-   text-decoration: none;
-}
+
+
+
+
+
+
+

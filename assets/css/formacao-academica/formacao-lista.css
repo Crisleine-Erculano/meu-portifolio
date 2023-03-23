@@ -1,0 +1,8 @@
+@media screen and (min-width:700px){
+   .formacao-lista{
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+   }
+   
+}

@@ -9,12 +9,14 @@ body {
     cursor: pointer;
     font-family: 'Raleway';
     line-height: 1;
-    width: 100vw;
+    width: 100%;
+    
 }
 :root{
     --azul-claro:#2A7AE4;
     --branco-medio:#fbfbfb;
     --cinza:#999999;
+    --cinza-claro:#cccccc;
     --preto:#000000;
 
 }
@@ -23,7 +25,6 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0 16px 0 16px;
-    max-width:100% !important;
     overflow: hidden;
     
 }
@@ -36,3 +37,14 @@ span{
 a{
     text-decoration: none;
 }
+@media screen and (min-width:700px){
+    .container{
+        padding: 0 32px 0 32px;
+    }
+}
+@media screen and (min-width:1000px){
+    .container{
+        padding: 32px 50px;
+    }
+}
+

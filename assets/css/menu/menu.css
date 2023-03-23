@@ -1,0 +1,14 @@
+.menu{
+   align-content: flex-end;
+   align-items: center;
+   display: flex;
+   height: 10vh;
+   
+}
+@media screen and (min-width:1000px) {
+   .menu {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      
+   }
