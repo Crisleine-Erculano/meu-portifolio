@@ -1,0 +1,6 @@
+@media screen  and (min-width:1000px){
+   .contato-formulario{
+      display: flex;
+      justify-content: space-between;
+   }
+}

@@ -8,3 +8,8 @@
 .contato-textarea::placeholder{
    color: var(--azul-claro);
 }
+@media screen  and (min-width:1000px){
+   .contato-textarea{
+      width: 100%;
+   }
+}

@@ -1,0 +1,7 @@
+@media screen  and (min-width:1000px){
+   .contato-direita{
+      display: flex;
+      flex-direction: column;
+      
+   }
+}

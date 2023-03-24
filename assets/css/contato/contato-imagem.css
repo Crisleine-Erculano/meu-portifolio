@@ -1,0 +1,11 @@
+.contato-imagem {
+   display: none;
+}
+@media screen  and (min-width:1000px){
+   .contato-imagem{
+      display: flex;
+      width: 464px;
+      height: 570px
+}
+   
+   
