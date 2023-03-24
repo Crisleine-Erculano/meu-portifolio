@@ -5,8 +5,10 @@
    padding: 10px;
    margin: 0;
 }
-@media screen  and (min-width:1000px){
-   .formulario{
+
+@media screen and (min-width:1000px) {
+   .formulario {
       width: 446px;
    }
+
 }
